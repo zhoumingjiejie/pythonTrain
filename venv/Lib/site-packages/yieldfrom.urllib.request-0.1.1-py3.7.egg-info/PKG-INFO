@@ -1,0 +1,11 @@
+Metadata-Version: 1.0
+Name: yieldfrom.urllib.request
+Version: 0.1.1
+Summary: asyncio version of urllib.request (urllib2)
+Home-page: http://github.com/rdbhost/yieldfromUrllib2
+Author: David Keeney
+Author-email: dkeeney@rdbhost.com
+License: Python Software Foundation License
+Description: UNKNOWN
+Keywords: asyncio,http,http,urllib
+Platform: UNKNOWN

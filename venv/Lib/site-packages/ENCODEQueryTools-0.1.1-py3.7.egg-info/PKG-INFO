@@ -1,0 +1,66 @@
+Metadata-Version: 1.1
+Name: ENCODEQueryTools
+Version: 0.1.1
+Summary: Module to query ENCODE ChIP-Seq TF Significance Tool (http://encodeqt.simple-encode.org) using API calls.
+Home-page: https://bitbucket.org/rauerbach/encodequerytools
+Author: Raymond Auerbach
+Author-email: rauerbac@stanford.edu
+License: LICENSE.txt
+Download-URL: https://bitbucket.org/rauerbach/encodequerytools/downloads/ENCODEQueryTools-0.1.1.tar.gz
+Description: =========================
+        ENCODEQueryTools v. 0.1.0
+        =========================
+        
+        |
+        
+        Introduction
+        ############
+        
+        The ENCODEQT module of the ENCODEQueryTools package is a Python wrapper around the ENCODE ChIP-Seq Significance Tool's API (ENCODEQT API). The ENCODE ChIP-Seq Significane Tool is a database-backed web tool for identifying enriched trancription factors from ENCODE ChIP-Seq experiments given a list of gene or transcript identifiers. This workflow is particularly useful when combined with lists of enriched genes or transcripts from RNA-Seq or microarray experiments.
+        
+        Required Libraries
+        ##################
+        
+        The ENCODEQT module imports the urllib, urllib2, and json libraries, all of which should be included with a standard Python distribution. In addition, pandas is also required as a dependency. The module was written and tested using Python 2.7.6.
+        
+        Installation
+        ############
+        
+        ENCODEQueryTools can be installed using the pip package manager:
+        ::
+        
+        	pip install ENCODEQueryTools
+        
+        License
+        #######
+        
+        ENCODEQueryTools is distributed under the New BSD License/Modified BSD License (3-clause).  Please see the LICENSE.txt file included with the package for full details.
+        
+        Other Documentation
+        ###################
+        
+        Additional documentation including a complete methods summary, example queries using the ENCODEQT module, and a full description of the Python package and the corresponding JSON API for the ENCODE ChIP-Seq Significance Tool can be found in the docs folder. We highly encourage the community to use the JSON AI description to develop tools in other programming languages that leverage the ENCODE ChIP-Seq Significance Tool.
+        
+        Additional Information
+        ######################
+        
+        The ENCODE ChIP-Seq Significance Tool is maintained by the Butte Laboratory at Stanford University in Stanford, California, USA. It is not directly affiliated with the ENCODE consortium (http://www.genome.gov/encode), but rather leverages data that the ENCODE consortium has released publicly without restriction. Please acknowledge the ENCODE Consortium when using data derived from this tool in manuscripts.
+        
+        Citation
+        ########
+        
+        For work using the ENCODEQT module, we ask that authors please cite the tool in their manuscripts as this module leverages the backend infrastructure of the web tool directly.  The citation is:
+        ::
+        
+        	Auerbach RK, Chen B, Butte AJ. Relating genes to function: identifying enriched transcription factors using the ENCODE ChIP-Seq significance tool. Bioinformatics. 2013 Aug 1;29(15):1922-4. doi: 10.1093/bioinformatics/btt316. Epub 2013 Jun 3. PubMed PMID: 23732275; PubMed Central PMCID: PMC3712221.
+        
+        Contributions
+        #############
+        
+        We welcome any contributions from the developer community, be they additional libraries useful for leveraging ENCODE consortium data, tools that leverage these data, or general support. ENCODE data is currently very hard to access and we hope that this package will help unlock this vast resource for everyone.
+        
+        Raymond Auerbach, the designer of the ENCODE ChIP-Seq Significance Tool and currently a postdoc in the Butte Laboratory, wrote this package as a first draft. As is usually the case in academia, postdoc positions are not forever and Raymond will be moving on. At that point, a new person will be handling questions and requests from the Butte Laboratory.
+        
+Platform: UNKNOWN
+Classifier: License :: OSI Approved :: BSD License
+Classifier: Topic :: Scientific/Engineering :: Bio-Informatics

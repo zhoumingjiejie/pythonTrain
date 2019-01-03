@@ -1,0 +1,22 @@
+selenium>=3.141.0
+
+[django]
+lxml>=2.3.6
+cssselect
+six
+
+[django:python_version < "3.0"]
+Django>=1.7.11
+
+[django:python_version > "3.3"]
+Django>=2.0.6
+
+[flask]
+Flask>=1.0.2
+lxml>=2.3.6
+cssselect
+
+[zope.testbrowser]
+zope.testbrowser>=5.2.4
+lxml>=4.2.4
+cssselect
