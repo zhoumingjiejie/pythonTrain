@@ -133,10 +133,11 @@ class Train(object):
         # 提交订单
         self.driver.find_by_id('submitOrder_id').click()
 
-        exit()
-        sleep(1.5)
-        print("确认选座...")
-        self.driver.find_by_id('qr_submit_id').click()
+        # 确认订单
+        while True:
+            if self.driver.is_element_present_by_id('qr_submit_id'):
+                self.driver.find_by_id('qr_submit_id').click()
+                break
 
     def _chinese_conversion_unicode(self, chinese):
         """
